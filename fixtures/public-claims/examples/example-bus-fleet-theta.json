@@ -1,0 +1,37 @@
+{
+  "data_class": "example",
+  "data_notice": "EXAMPLE DATA. Invented for CLI demonstration. Not a real forecast, not from a real source, and not a measured public outcome.",
+  "claim_id": "example-bus-fleet-theta",
+  "forecaster_id": "example-transit-lab",
+  "forecaster_name": "Example Transit Lab",
+  "exact_quote": "At least 40 battery-electric buses will be in scheduled Example Transit service by 31 December 2028.",
+  "source_url": "https://example.com/claims/bus-fleet-theta",
+  "stated_at": "2026-05-20",
+  "question_id": "q-example-buses",
+  "problem_id": "p-example-planning",
+  "decision_id": "d-example-transit-fleet",
+  "signal_ids": [
+    "s-example-fleet"
+  ],
+  "question": "Will at least 40 battery-electric buses be in scheduled Example Transit service on or before 31 December 2028?",
+  "population": "Example Transit scheduled fleet",
+  "denominator": "buses in service",
+  "threshold": "40 battery-electric buses",
+  "resolution_at": "2028-12-31",
+  "resolution_rule": "True if the operator's official fleet register shows at least 40 battery-electric buses in scheduled service on or before the deadline. False if fewer. Void if the operator is replaced and no comparable register is published.",
+  "resolution_source": "https://example.com/transit/fleet",
+  "probability": 0.6,
+  "basis": "EXAMPLE DATA: illustrative probability, not a real forecast.",
+  "made_at": "2026-05-20",
+  "forecast_version": 1,
+  "key_assumptions": [
+    "Official statistics remain the resolution source."
+  ],
+  "update_triggers": [
+    "Definition or boundary change."
+  ],
+  "supporting_evidence_ids": [],
+  "contradicting_evidence_ids": [],
+  "prediction_digest": "b3a7a3bbd9438e2ef823a7531fba70e02b01ba7b0c91bdd5357c9beb1d2c9358",
+  "frozen_at": "2026-05-20T00:00:00Z"
+}

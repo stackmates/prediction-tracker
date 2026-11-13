@@ -1,0 +1,14 @@
+{
+  "data_class": "example",
+  "data_notice": "EXAMPLE DATA. Invented for CLI demonstration. Not a real forecast, not from a real source, and not a measured public outcome.",
+  "decision_id": "d-example-civic-budget",
+  "problem_id": "p-example-public-goods",
+  "prediction_ids": [
+    "example-library-visits-gamma",
+    "example-station-void-delta",
+    "example-park-trees-zeta",
+    "example-school-meals-eta",
+    "example-water-quality-kappa"
+  ],
+  "title": "EXAMPLE DATA: civic budget emphasis on public goods."
+}

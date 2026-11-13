@@ -1,0 +1,42 @@
+{
+  "data_class": "public-sourced",
+  "data_notice": "Public-sourced claim taken from an already-published URL. Probability is omitted where the original source did not state one word for word; those rows are verdict-only and are not in the Brier set. Link fields marked [U] are unknown and were not invented; those rows are reading-list items and are not scored.",
+  "claim_id": "acemoglu-office-tasks-5pct-economy",
+  "forecaster_id": "daron-acemoglu",
+  "forecaster_name": "Daron Acemoglu",
+  "exact_quote": "It’s going to impact a bunch of office jobs that are about data summary, visual matching, pattern recognition, etc. And those are essentially about 5% of the economy.",
+  "source_url": "https://www.technologyreview.com/2025/02/25/1111207/a-nobel-laureate-on-the-economics-of-artificial-intelligence/",
+  "stated_at": "2025-02-25",
+  "question_id": "[U]",
+  "problem_id": "P08",
+  "decision_id": "[U]",
+  "signal_ids": "[U]",
+  "question": "Are the office tasks Acemoglu named (data summary, visual matching, pattern recognition) essentially about 5% of the US economy, as the share AI will impact, over the 10 years from 25 Feb 2025?",
+  "population": "US office tasks of the kind named (data summary, visual matching, pattern recognition) that AI is expected to impact",
+  "denominator": "The US economy (value-added or task-share, in the same framework Acemoglu used)",
+  "threshold": "About 5% of the economy, over the 10-year window ending 25 Feb 2035",
+  "metric_unit": "percent of the US economy (task or value-added share)",
+  "target_value": 5.0,
+  "tolerance": 2.0,
+  "resolution_at": "2035-02-25",
+  "resolution_rule": "Numeric 'about 5%.' The 10-year window is the same as the GDP claim on this page (25 Feb 2025–25 Feb 2035). KEPT if a published official or peer-reviewed task-share or value-added estimate of the office-task categories named (data summary, visual matching, pattern recognition) that AI impacts, as a share of the US economy, falls in 3–7% inclusive ('about 5%', frozen as ±2 percentage points). The Jan 2025 MIT Sloan wording of the same research ('only about 5% of tasks will be able to be profitably performed by AI within that time frame') is the same claim's task-share form; either a 3–7% task share or a 3–7% economy share, in that framework, counts. BROKEN if such an estimate exists and lies outside 3–7%. UNRESOLVABLE if no comparable published share exists at the deadline. This is not a claim that those occupations disappear (a separate, older Charter claim).",
+  "resolution_source": "BLS / BEA occupational or value-added data, or a follow-up academic estimate in Acemoglu's task-exposure framework, covering the 2025–2035 window.",
+  "probability_note": "No numerical probability was stated word for word by the original source; the claim is not in the Brier set.",
+  "basis": "First-person quote, MIT Technology Review, 25 Feb 2025. Same 10-year horizon as the GDP claim in the same article. No numerical probability was stated.",
+  "base_rate_or_reference_class": "His 2024 paper's task-exposure estimates; MIT Sloan 21 Jan 2025 ('only about 5% of tasks will be able to be profitably performed by AI within that time frame').",
+  "made_at": "2026-11-14",
+  "forecast_version": 1,
+  "key_assumptions": [
+    "The 10-year window of the same article applies to this share.",
+    "'About 5%' is resolved with a frozen ±2pp band.",
+    "A comparable published share will exist at the deadline."
+  ],
+  "update_triggers": [
+    "A new Acemoglu or official task-share estimate away from 5%.",
+    "A public restatement by Acemoglu of the economy share."
+  ],
+  "supporting_evidence_ids": [],
+  "contradicting_evidence_ids": [],
+  "prediction_digest": "431ca5964c8e30dabbb069eafaff97ce26b7f8533395712301dfce342c650c2c",
+  "frozen_at": "2026-11-14T08:22:00+13:00"
+}

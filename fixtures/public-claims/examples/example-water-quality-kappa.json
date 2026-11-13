@@ -1,0 +1,37 @@
+{
+  "data_class": "example",
+  "data_notice": "EXAMPLE DATA. Invented for CLI demonstration. Not a real forecast, not from a real source, and not a measured public outcome.",
+  "claim_id": "example-water-quality-kappa",
+  "forecaster_id": "example-civic",
+  "forecaster_name": "Example Civic Office",
+  "exact_quote": "Example Lake will meet the published bathing-water standard on at least 90 percent of sampled summer days in 2027–28.",
+  "source_url": "https://example.com/claims/water-quality-kappa",
+  "stated_at": "2026-07-12",
+  "question_id": "q-example-water",
+  "problem_id": "p-example-public-goods",
+  "decision_id": "d-example-civic-budget",
+  "signal_ids": [
+    "s-example-water"
+  ],
+  "question": "Will Example Lake meet the published bathing-water standard on at least 90 percent of sampled summer days in the 2027–28 season?",
+  "population": "Official bathing-water samples at Example Lake",
+  "denominator": "sampled summer days 2027–28",
+  "threshold": "90 percent meeting the published standard",
+  "resolution_at": "2028-04-30",
+  "resolution_rule": "True if the official seasonal report gives a pass rate of at least 90 percent. False if lower. Void if sampling is stopped and no official rate is published.",
+  "resolution_source": "https://example.com/water/example-lake/2027-28",
+  "probability": 0.7,
+  "basis": "EXAMPLE DATA: illustrative probability, not a real forecast.",
+  "made_at": "2026-07-12",
+  "forecast_version": 1,
+  "key_assumptions": [
+    "Official statistics remain the resolution source."
+  ],
+  "update_triggers": [
+    "Definition or boundary change."
+  ],
+  "supporting_evidence_ids": [],
+  "contradicting_evidence_ids": [],
+  "prediction_digest": "8bd087b5deb8f840062272ea9d94fdb06dba33d993b5b5e44635a92d8bb1eb51",
+  "frozen_at": "2026-07-12T00:00:00Z"
+}

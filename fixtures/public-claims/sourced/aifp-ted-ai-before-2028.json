@@ -1,0 +1,39 @@
+{
+  "data_class": "public-sourced",
+  "data_notice": "Public-sourced claim taken from an already-published URL. Probability is omitted where the original source did not state one word for word; those rows are verdict-only and are not in the Brier set. Link fields marked [U] are unknown and were not invented; those rows are reading-list items and are not scored.",
+  "claim_id": "aifp-ted-ai-before-2028",
+  "forecaster_id": "ai-futures-project",
+  "forecaster_name": "AI Futures Project",
+  "exact_quote": "We also predict a 35-65% chance that Top-Expert-Dominating AI (TED-AI), AIs that can automate all white-collar work, will arrive before 2028.",
+  "source_url": "https://blog.aifutures.org/p/q35-timelines-update-looks-like-the",
+  "stated_at": "2026-11-10",
+  "question_id": "[U]",
+  "problem_id": "P02",
+  "decision_id": "[U]",
+  "signal_ids": "[U]",
+  "question": "Will Top-Expert-Dominating AI (TED-AI) — AIs that can automate all white-collar work, as AI Futures Project defined it on 10 Nov 2026 — arrive before 2028?",
+  "population": "White-collar (knowledge, office, professional) work that humans perform",
+  "denominator": "All such white-collar work ('all' in the frozen quote, not a subset)",
+  "threshold": "TED-AI arrives before 1 Jan 2028",
+  "resolution_at": "2027-12-31",
+  "resolution_rule": "Binary event ('arrive before 2028' = on or before 31 Dec 2027). KEPT if, on or before 31 Dec 2027, AI Futures Project publicly states that TED-AI as defined on 10 Nov 2026 has arrived, OR a public, checkable demonstration shows AIs can automate all white-collar work in that sense. BROKEN if the deadline passes without such a statement or demonstration. 'All white-collar work' is a high bar: remaining substantial white-collar occupations that cannot be automated is BROKEN, not a near-miss unresolvable. If AFP later publishes a more precise operational definition, use it only if it is a clarification of the 10 Nov wording, not a rewrite that narrows 'all.' The stated 35–65% is a range, not a single 0–1 probability, so probability is omitted and this row is not in the Brier set; the range is recorded in basis. UNRESOLVABLE only if AFP and the public record are gone or the frozen definition cannot be applied at all.",
+  "resolution_source": "AI Futures Project published updates; occupational evidence (BLS or equivalent) only as supporting context, not as a substitute for the frozen 'all white-collar work' definition.",
+  "probability_note": "No numerical probability was stated word for word by the original source; the claim is not in the Brier set.",
+  "basis": "Q3.5 Timelines Update, 10 Nov 2026. The group stated a 35–65% chance; because that is a range and not a single 0–1 probability, the probability field is omitted and the claim is verdict-only, not in the Brier set.",
+  "base_rate_or_reference_class": "The group's earlier 2025–2026 timeline updates and the METR report the page names as the single biggest source of evidence.",
+  "made_at": "2026-11-14",
+  "forecast_version": 1,
+  "key_assumptions": [
+    "The 10 Nov 2026 TED-AI definition ('AIs that can automate all white-collar work') is the resolution definition.",
+    "AFP will publish a resolution or a public demonstration will exist to apply the rule."
+  ],
+  "update_triggers": [
+    "An AFP update that moves the TED-AI probability or arrival window.",
+    "A public claim that all white-collar work is automatable.",
+    "Clear contrary evidence that major white-collar occupations remain non-automatable near the deadline."
+  ],
+  "supporting_evidence_ids": [],
+  "contradicting_evidence_ids": [],
+  "prediction_digest": "72f79600b9efe9fee027b93187761f464dc679b711f69e10a08b98080d27631d",
+  "frozen_at": "2026-11-14T08:22:00+13:00"
+}

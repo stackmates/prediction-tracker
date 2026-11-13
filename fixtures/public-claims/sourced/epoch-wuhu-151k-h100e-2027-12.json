@@ -1,0 +1,43 @@
+{
+  "data_class": "public-sourced",
+  "data_notice": "Public-sourced claim taken from an already-published URL. Probability is omitted where the original source did not state one word for word; those rows are verdict-only and are not in the Brier set. Link fields marked [U] are unknown and were not invented; those rows are reading-list items and are not scored.",
+  "claim_id": "epoch-wuhu-151k-h100e-2027-12",
+  "forecaster_id": "epoch-ai",
+  "forecaster_name": "Epoch AI",
+  "exact_quote": "For instance, Huawei’s sister campus in Wuhu will grow slightly faster, reaching a projected 151,000 H100e by December 2027.",
+  "source_url": "https://epoch.ai/publications/huawei-horinger-china-compute-gap",
+  "stated_at": "2026-11-06",
+  "question_id": "[U]",
+  "problem_id": "P08",
+  "decision_id": "[U]",
+  "signal_ids": "[U]",
+  "question": "Will Huawei's Wuhu AI data-center campus reach a projected 151,000 H100e of AI compute by 31 Dec 2027?",
+  "population": "Huawei's Wuhu campus (the sister campus to Horinger named in Epoch's 6 Nov 2026 report)",
+  "denominator": "Epoch's H100e unit as used in that report",
+  "threshold": "About 151,000 H100e by December 2027 (point projection; see resolution_rule band)",
+  "metric_unit": "H100e",
+  "direction": "up",
+  "target_value": 151000.0,
+  "tolerance": 30200.0,
+  "resolution_at": "2027-12-31",
+  "resolution_rule": "Numeric point projection. KEPT if, on or before 31 Dec 2027, Epoch or a comparable public estimate puts Huawei Wuhu's AI compute at 151,000 H100e within ±20% (120,800 to 181,200), using the 6 Nov 2026 H100e unit. The ±20% band is the frozen reading of 'a projected 151,000' (a point, not a floor) and is written before the result is known. BROKEN if the best comparable public figure at the deadline is outside that band. UNRESOLVABLE only if no convertible public figure exists at the deadline. If Epoch revises the projection before the deadline, the original frozen target still stands; the revision is a new forecast row, not a rewrite of this one.",
+  "resolution_source": "Epoch AI follow-up on Huawei Wuhu (including satellite-derived estimates of the kind used in the 6 Nov 2026 report); Huawei or provincial public statements convertible to H100e.",
+  "probability_note": "No numerical probability was stated word for word by the original source; the claim is not in the Brier set.",
+  "basis": "Epoch's 6 Nov 2026 Horinger report projects 151,000 H100e at Wuhu by December 2027. No numerical probability was stated.",
+  "base_rate_or_reference_class": "Epoch's same-page Horinger projection (about 141,000 H100e by the start of 2028, 90% CI 65,000–227,000).",
+  "made_at": "2026-11-14",
+  "forecast_version": 1,
+  "key_assumptions": [
+    "Wuhu's buildout proceeds roughly as Epoch inferred from satellite imagery and public plans.",
+    "The 6 Nov 2026 H100e unit remains convertible.",
+    "The campus remains identifiable as Huawei Wuhu."
+  ],
+  "update_triggers": [
+    "An Epoch or comparable public Wuhu capacity update.",
+    "Clear evidence the Wuhu campus is cancelled, delayed, or re-purposed away from AI compute."
+  ],
+  "supporting_evidence_ids": [],
+  "contradicting_evidence_ids": [],
+  "prediction_digest": "e504d92067c3e9d0ea72f78b0b3cf04ef40a364d64d52467c0e6cac714f484cd",
+  "frozen_at": "2026-11-14T08:22:00+13:00"
+}

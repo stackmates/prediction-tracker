@@ -1,0 +1,13 @@
+{
+  "data_class": "example",
+  "data_notice": "EXAMPLE DATA. Invented for CLI demonstration. Not a real forecast, not from a real source, and not a measured public outcome.",
+  "decision_id": "d-example-umbrella",
+  "problem_id": "p-example-planning",
+  "prediction_ids": [
+    "example-rain-city-alpha",
+    "example-train-delay-beta",
+    "example-bridge-open-epsilon",
+    "example-housing-units-lambda"
+  ],
+  "title": "EXAMPLE DATA: whether to budget for weather- and works-sensitive plans."
+}

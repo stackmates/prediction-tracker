@@ -1,0 +1,37 @@
+{
+  "data_class": "example",
+  "data_notice": "EXAMPLE DATA. Invented for CLI demonstration. Not a real forecast, not from a real source, and not a measured public outcome.",
+  "claim_id": "example-housing-units-lambda",
+  "forecaster_id": "example-institute",
+  "forecaster_name": "Example Institute",
+  "exact_quote": "At least 200 completed dwellings will be added to the Example District housing stock in calendar year 2028.",
+  "source_url": "https://example.com/claims/housing-units-lambda",
+  "stated_at": "2026-08-08",
+  "question_id": "q-example-housing",
+  "problem_id": "p-example-planning",
+  "decision_id": "d-example-umbrella",
+  "signal_ids": [
+    "s-example-housing"
+  ],
+  "question": "Will at least 200 completed dwellings be added to the Example District housing stock in calendar year 2028?",
+  "population": "Completed dwellings in Example District",
+  "denominator": "calendar year 2028",
+  "threshold": "200 dwellings",
+  "resolution_at": "2029-03-31",
+  "resolution_rule": "True if the official housing completion release reports at least 200. False if fewer. Void if the district boundary changes so the count is not comparable.",
+  "resolution_source": "https://example.com/housing/completions/2028",
+  "probability": 0.5,
+  "basis": "EXAMPLE DATA: illustrative probability, not a real forecast.",
+  "made_at": "2026-08-08",
+  "forecast_version": 1,
+  "key_assumptions": [
+    "Official statistics remain the resolution source."
+  ],
+  "update_triggers": [
+    "Definition or boundary change."
+  ],
+  "supporting_evidence_ids": [],
+  "contradicting_evidence_ids": [],
+  "prediction_digest": "90e9cab84202818511a92427a2e7349d42cf7b3d64a8a73de9aeddf31ca0e074",
+  "frozen_at": "2026-08-08T00:00:00Z"
+}

@@ -1,0 +1,45 @@
+{
+  "data_class": "example",
+  "data_notice": "EXAMPLE DATA. Invented for CLI demonstration. Not a real forecast, not from a real source, and not a measured public outcome.",
+  "claim_id": "example-train-delay-beta",
+  "forecaster_id": "example-institute",
+  "forecaster_name": "Example Institute",
+  "exact_quote": "The Example Line 08:00 service will arrive within three minutes of schedule every weekday in March 2024.",
+  "source_url": "https://example.com/claims/train-delay-beta",
+  "stated_at": "2024-02-01",
+  "question_id": "q-example-transit",
+  "problem_id": "p-example-planning",
+  "decision_id": "d-example-umbrella",
+  "signal_ids": [
+    "s-example-transit-board"
+  ],
+  "question": "Will every weekday Example Line 08:00 service in March 2024 arrive within three minutes of the published schedule?",
+  "population": "Weekday Example Line 08:00 arrivals in March 2024",
+  "denominator": "number of weekday services that month",
+  "threshold": "every service arrives within three minutes",
+  "resolution_at": "2024-04-01",
+  "resolution_rule": "True only if every weekday 08:00 service in March 2024 arrived within three minutes. False if any service was later. Void if the operator stops publishing official arrival times.",
+  "resolution_source": "https://example.com/transit/example-line/2024-03",
+  "probability": 0.3,
+  "basis": "EXAMPLE DATA: illustrative probability, not a real forecast.",
+  "base_rate_or_reference_class": "0.4",
+  "made_at": "2024-02-01",
+  "forecast_version": 1,
+  "key_assumptions": [
+    "Official arrival times remain published."
+  ],
+  "update_triggers": [
+    "Strike or timetable rewrite."
+  ],
+  "supporting_evidence_ids": [],
+  "contradicting_evidence_ids": [],
+  "prediction_digest": "0f4921fb44eb29b941b9a3094fa7b961453e6c3927618b3ed9200ee004a3a17a",
+  "frozen_at": "2024-02-01T00:00:00Z",
+  "actual_value": 0.0,
+  "actual_at": "2024-04-01",
+  "actual_evidence_uri": "https://example.com/transit/example-line/2024-03",
+  "verifier_id": "example-verifier-transit",
+  "verdict": "false",
+  "brier": 0.09,
+  "resolved_outcome": "EXAMPLE DATA: invented observation. At least one weekday 08:00 service was more than three minutes late."
+}

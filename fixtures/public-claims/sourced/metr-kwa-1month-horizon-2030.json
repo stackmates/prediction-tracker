@@ -1,0 +1,40 @@
+{
+  "data_class": "public-sourced",
+  "data_notice": "Public-sourced claim taken from an already-published URL. Probability is omitted where the original source did not state one word for word; those rows are verdict-only and are not in the Brier set. Link fields marked [U] are unknown and were not invented; those rows are reading-list items and are not scored.",
+  "claim_id": "metr-kwa-1month-horizon-2030",
+  "forecaster_id": "thomas-kwa",
+  "forecaster_name": "Thomas Kwa (METR)",
+  "exact_quote": "The most important numbers to estimate were the slope of the long-run trend (one doubling every 6-7 months) and a linear extrapolation of this trend predicting when AIs would reach 1 month / 167 working hours time horizon (2030), not the exact time horizon of any particular model. I think the paper did well here.",
+  "source_url": "https://metr.org/notes/2026-01-22-time-horizon-limitations/",
+  "stated_at": "2026-01-22",
+  "question_id": "[U]",
+  "problem_id": "P02",
+  "decision_id": "[U]",
+  "signal_ids": "[U]",
+  "question": "Will a frontier AI system reach a METR 50% time horizon of at least 167 working hours (one month) on or before 31 Dec 2030?",
+  "population": "Frontier generalist AI systems evaluated on METR's (or a successor METR) time-horizon suite",
+  "denominator": "Human working hours to complete the same tasks at 50% reliability, as METR defines the time-horizon metric",
+  "threshold": "50% time horizon of at least 167 working hours, reached in or before 2030",
+  "resolution_at": "2030-12-31",
+  "resolution_rule": "Binary event, treated as 'reached by end of 2030' (early arrival counts as kept). KEPT if, on or before 31 Dec 2030, METR publishes a 50% time-horizon measurement (TH1, TH1.1, or a named successor using the same 50%-reliability human-hours definition) of at least 167 working hours for any frontier system. BROKEN if that deadline passes and no such published measurement has reached 167 hours. If METR stops publishing and a competent public replication (Epoch or an independent lab using METR's published method and task suite) reports the figure, use that. UNRESOLVABLE only if the named method cannot be applied (task suite withdrawn and no replicable public method remains), not if the result is close. The 22 Jan 2026 note affirms the March 2025 paper's linear extrapolation; the paper's 'if the trend continues' antecedent is a key assumption, not a separate escape: a slowing trend that misses 167 hours by the deadline is BROKEN, not unresolvable.",
+  "resolution_source": "METR published time-horizon reports and the time-horizons page at metr.org (TH1 / TH1.1 or successor). Fallback: a public replication that states it uses METR's method.",
+  "probability_note": "No numerical probability was stated word for word by the original source; the claim is not in the Brier set.",
+  "basis": "Kwa, a co-author of METR's 19 Mar 2025 long-tasks paper, on 22 Jan 2026 named the linear-extrapolation 2030 landing as one of the paper's two most important numbers and wrote that the paper 'did well here.' No numerical probability was stated.",
+  "base_rate_or_reference_class": "METR's measured 2019–2025 time-horizon doubling trend (one doubling every 6–7 months in the long-run fit cited in the same sentence).",
+  "made_at": "2026-11-14",
+  "forecast_version": 1,
+  "key_assumptions": [
+    "The 50% time-horizon metric remains the operational definition of '1 month / 167 working hours.'",
+    "The 2019–2025 doubling trend is informative enough that 2030 remains the landing year.",
+    "METR or a public successor continues to publish comparable measurements through 2030."
+  ],
+  "update_triggers": [
+    "A METR (or successor) release showing doubling time has clearly lengthened or shortened.",
+    "A published 50% time horizon already at or above 167 hours.",
+    "METR withdraws or replaces the time-horizon metric."
+  ],
+  "supporting_evidence_ids": [],
+  "contradicting_evidence_ids": [],
+  "prediction_digest": "5ad935b8f548824cb43ac0fce4d80ee921e3396ff781f59818d234b27b36fcc8",
+  "frozen_at": "2026-11-14T08:22:00+13:00"
+}

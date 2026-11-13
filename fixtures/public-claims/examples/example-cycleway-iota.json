@@ -1,0 +1,37 @@
+{
+  "data_class": "example",
+  "data_notice": "EXAMPLE DATA. Invented for CLI demonstration. Not a real forecast, not from a real source, and not a measured public outcome.",
+  "claim_id": "example-cycleway-iota",
+  "forecaster_id": "example-transit-lab",
+  "forecaster_name": "Example Transit Lab",
+  "exact_quote": "The Example Coast cycleway will run continuously for at least 25 kilometres by 30 June 2028.",
+  "source_url": "https://example.com/claims/cycleway-iota",
+  "stated_at": "2026-06-01",
+  "question_id": "q-example-cycle",
+  "problem_id": "p-example-planning",
+  "decision_id": "d-example-transit-fleet",
+  "signal_ids": [
+    "s-example-cycle"
+  ],
+  "question": "Will the Example Coast cycleway run continuously for at least 25 kilometres by 30 June 2028?",
+  "population": "Example Coast cycleway",
+  "denominator": "continuous officially designated kilometres",
+  "threshold": "25 km",
+  "resolution_at": "2028-06-30",
+  "resolution_rule": "True if the official infrastructure map shows a continuous 25 km designated cycleway. False if the continuous length is shorter. Void if the designation is withdrawn.",
+  "resolution_source": "https://example.com/infrastructure/cycleway",
+  "probability": 0.45,
+  "basis": "EXAMPLE DATA: illustrative probability, not a real forecast.",
+  "made_at": "2026-06-01",
+  "forecast_version": 1,
+  "key_assumptions": [
+    "Official statistics remain the resolution source."
+  ],
+  "update_triggers": [
+    "Definition or boundary change."
+  ],
+  "supporting_evidence_ids": [],
+  "contradicting_evidence_ids": [],
+  "prediction_digest": "f1070a3e3652a073035daedae4b8a44162153a0fcbad6ca4c0f6f04b145e80eb",
+  "frozen_at": "2026-06-01T00:00:00Z"
+}

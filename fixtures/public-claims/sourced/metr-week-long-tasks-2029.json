@@ -1,0 +1,40 @@
+{
+  "data_class": "public-sourced",
+  "data_notice": "Public-sourced claim taken from an already-published URL. Probability is omitted where the original source did not state one word for word; those rows are verdict-only and are not in the Brier set. Link fields marked [U] are unknown and were not invented; those rows are reading-list items and are not scored.",
+  "claim_id": "metr-week-long-tasks-2029",
+  "forecaster_id": "metr",
+  "forecaster_name": "METR",
+  "exact_quote": "If the measured trend from the past 6 years continues for 2-4 more years, generalist autonomous agents will be capable of performing a wide range of week-long tasks.",
+  "source_url": "https://metr.org/blog/2025-03-19-measuring-ai-ability-to-complete-long-tasks/",
+  "stated_at": "2025-03-19",
+  "question_id": "[U]",
+  "problem_id": "P02",
+  "decision_id": "[U]",
+  "signal_ids": "[U]",
+  "question": "Will generalist autonomous agents be capable of a wide range of week-long tasks by 19 Mar 2029, as measured by METR's 50% time horizon reaching at least one working week (40 hours)?",
+  "population": "Generalist autonomous AI agents at the frontier",
+  "denominator": "Human working hours to complete the same tasks at 50% reliability (METR time-horizon definition)",
+  "threshold": "50% time horizon of at least 40 working hours (one working week), by 19 Mar 2029 (the 4-year outer bound)",
+  "resolution_at": "2029-03-19",
+  "resolution_rule": "Binary event using the 4-year outer bound of the stated 2–4 year window (inner bound 19 Mar 2027 is not the deadline). KEPT if, on or before 19 Mar 2029, METR (TH1 / TH1.1 or successor) or a public replication of METR's method reports a 50% time horizon of at least 40 working hours for a generalist agent, or METR itself states that frontier agents can perform a wide range of week-long tasks. BROKEN if that deadline passes without such a measurement or statement. Arrival before the 2-year inner bound is KEPT. The claim is worded as 'If the measured trend… continues.' If METR (or successor) reports that the 2019–2025 doubling trend has clearly broken (sustained doubling time well outside the paper's 1–4 doublings/year band) AND the 40-hour horizon has not been reached, resolve UNRESOLVABLE because the antecedent is false; if the horizon is reached anyway, KEPT. Close-but-short of 40 hours is BROKEN, not unresolvable.",
+  "resolution_source": "METR published time-horizon reports and metr.org time-horizons page; the 19 Mar 2025 paper is the definitional source. Fallback: public METR-method replication.",
+  "probability_note": "No numerical probability was stated word for word by the original source; the claim is not in the Brier set.",
+  "basis": "Forward extrapolation stated in METR's 19 Mar 2025 blog/paper, conditional on continuation of the prior six-year measured trend. No numerical probability was stated.",
+  "base_rate_or_reference_class": "METR's measured 2019–2025 time-horizon trend (about 1–4 doublings per year).",
+  "made_at": "2026-11-14",
+  "forecast_version": 1,
+  "key_assumptions": [
+    "The measured 2019–2025 trend continues for 2–4 further years.",
+    "A 'week-long task' is operationalized as a 50% time horizon of at least 40 human working hours.",
+    "METR or a public successor continues to publish comparable measurements."
+  ],
+  "update_triggers": [
+    "METR publishes a 50% time horizon at or above 40 hours.",
+    "A published break in the doubling trend.",
+    "METR withdraws or replaces the metric."
+  ],
+  "supporting_evidence_ids": [],
+  "contradicting_evidence_ids": [],
+  "prediction_digest": "5224c29bc374689b1846216fe929f7d308b0897eface95b8365d9a1f5f37e987",
+  "frozen_at": "2026-11-14T08:22:00+13:00"
+}

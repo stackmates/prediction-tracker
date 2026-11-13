@@ -1,0 +1,37 @@
+{
+  "data_class": "example",
+  "data_notice": "EXAMPLE DATA. Invented for CLI demonstration. Not a real forecast, not from a real source, and not a measured public outcome.",
+  "claim_id": "example-bridge-open-epsilon",
+  "forecaster_id": "example-institute",
+  "forecaster_name": "Example Institute",
+  "exact_quote": "The Example River footbridge will be open to the public on or before 30 June 2027.",
+  "source_url": "https://example.com/claims/bridge-open-epsilon",
+  "stated_at": "2026-01-15",
+  "question_id": "q-example-bridge",
+  "problem_id": "p-example-planning",
+  "decision_id": "d-example-umbrella",
+  "signal_ids": [
+    "s-example-works"
+  ],
+  "question": "Will the Example River footbridge be open to the public on or before 30 June 2027?",
+  "population": "Example River footbridge",
+  "denominator": "public opening",
+  "threshold": "open on or before 30 June 2027",
+  "resolution_at": "2027-06-30",
+  "resolution_rule": "True if the city announces the footbridge is open to the public on or before that date. False if it is not. Void if the project is formally cancelled and replaced by a different crossing whose opening is not comparable.",
+  "resolution_source": "https://example.com/works/footbridge",
+  "probability": 0.55,
+  "basis": "EXAMPLE DATA: illustrative probability, not a real forecast.",
+  "made_at": "2026-01-15",
+  "forecast_version": 1,
+  "key_assumptions": [
+    "Official statistics remain the resolution source."
+  ],
+  "update_triggers": [
+    "Definition or boundary change."
+  ],
+  "supporting_evidence_ids": [],
+  "contradicting_evidence_ids": [],
+  "prediction_digest": "749240910ffced0e9082ea0c3631dd3f7bc252d04c6fb0de8a11ac0f310e2593",
+  "frozen_at": "2026-01-15T00:00:00Z"
+}

@@ -1,0 +1,11 @@
+{
+  "data_class": "example",
+  "data_notice": "EXAMPLE DATA. Invented for CLI demonstration. Not a real forecast, not from a real source, and not a measured public outcome.",
+  "decision_id": "d-example-transit-fleet",
+  "problem_id": "p-example-planning",
+  "prediction_ids": [
+    "example-bus-fleet-theta",
+    "example-cycleway-iota"
+  ],
+  "title": "EXAMPLE DATA: transit fleet and path investment."
+}

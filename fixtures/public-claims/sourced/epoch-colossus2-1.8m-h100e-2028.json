@@ -1,0 +1,43 @@
+{
+  "data_class": "public-sourced",
+  "data_notice": "Public-sourced claim taken from an already-published URL. Probability is omitted where the original source did not state one word for word; those rows are verdict-only and are not in the Brier set. Link fields marked [U] are unknown and were not invented; those rows are reading-list items and are not scored.",
+  "claim_id": "epoch-colossus2-1.8m-h100e-2028",
+  "forecaster_id": "epoch-ai",
+  "forecaster_name": "Epoch AI",
+  "exact_quote": "But this would still leave it at about the same share, or a smaller one, of Colossus 2’s capacity, which we expect to reach at least 1.8 million H100e by 2028.",
+  "source_url": "https://epoch.ai/publications/huawei-horinger-china-compute-gap",
+  "stated_at": "2026-11-06",
+  "question_id": "[U]",
+  "problem_id": "P08",
+  "decision_id": "[U]",
+  "signal_ids": "[U]",
+  "question": "Will SpaceX's Colossus 2 AI data center (Tennessee) reach at least 1.8 million H100-equivalents of AI compute by 31 Dec 2028?",
+  "population": "SpaceX Colossus 2 (the Tennessee campus identified as Colossus 2 in Epoch's 6 Nov 2026 report, or its clearly named successor on that site)",
+  "denominator": "Epoch's H100-equivalent (H100e) unit as used in that report (theoretical 8-bit OP/s relative to Nvidia H100)",
+  "threshold": "At least 1.8 million H100e, by 31 Dec 2028",
+  "metric_unit": "H100e",
+  "direction": "up",
+  "target_value": 1800000.0,
+  "resolution_at": "2028-12-31",
+  "resolution_rule": "Numeric floor: KEPT if a public figure for Colossus 2's AI compute, converted into the 6 Nov 2026 Epoch H100e unit, is at least 1.8 million at any time on or before 31 Dec 2028. 'By 2028' is read as on or before the last day of 2028 (the more generous of start-vs-end readings; this is frozen even if a later footnote is read as start-of-2028). BROKEN if, at that deadline, the best public comparable figure is below 1.8 million. If the campus is renamed or extended, apply the rule to the same Tennessee facility Epoch called Colossus 2 on 6 Nov 2026. UNRESOLVABLE only if no public capacity figure in a convertible unit exists at the deadline, or the H100e unit cannot be reconstructed. A close miss is BROKEN.",
+  "resolution_source": "Epoch AI follow-up publications or data explorers on Colossus 2; SpaceX / xAI public capacity statements; SemiAnalysis or equivalent industry reports, converted to the 6 Nov 2026 H100e unit.",
+  "probability_note": "No numerical probability was stated word for word by the original source; the claim is not in the Brier set.",
+  "basis": "Epoch's 6 Nov 2026 Horinger report states, in the authors' voice, that they expect Colossus 2 to reach at least 1.8 million H100e by 2028 (footnote 19 on the page). No numerical probability was stated.",
+  "base_rate_or_reference_class": "Epoch's then-current estimate of Colossus 2 as the world's largest AI data center, and of Horinger at about 7% of that capacity.",
+  "made_at": "2026-11-14",
+  "forecast_version": 1,
+  "key_assumptions": [
+    "Colossus 2 continues as a single identifiable campus whose capacity is publicly estimable.",
+    "The 6 Nov 2026 H100e definition remains usable or convertible.",
+    "'At least 1.8 million' is a floor, not a point estimate with a band."
+  ],
+  "update_triggers": [
+    "A public Colossus 2 capacity figure at or above 1.8 million H100e.",
+    "A public downward revision of Colossus 2 plans.",
+    "Epoch revises this expectation in a later report."
+  ],
+  "supporting_evidence_ids": [],
+  "contradicting_evidence_ids": [],
+  "prediction_digest": "67f7aaa88c986368db6db231086c412df0f83d5c3f7cf67d0ba80f61d70eca4e",
+  "frozen_at": "2026-11-14T08:22:00+13:00"
+}

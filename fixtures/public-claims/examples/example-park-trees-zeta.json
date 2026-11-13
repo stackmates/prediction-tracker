@@ -1,0 +1,37 @@
+{
+  "data_class": "example",
+  "data_notice": "EXAMPLE DATA. Invented for CLI demonstration. Not a real forecast, not from a real source, and not a measured public outcome.",
+  "claim_id": "example-park-trees-zeta",
+  "forecaster_id": "example-civic",
+  "forecaster_name": "Example Civic Office",
+  "exact_quote": "Example Park will have at least 500 established trees by 31 December 2027.",
+  "source_url": "https://example.com/claims/park-trees-zeta",
+  "stated_at": "2026-03-01",
+  "question_id": "q-example-trees",
+  "problem_id": "p-example-public-goods",
+  "decision_id": "d-example-civic-budget",
+  "signal_ids": [
+    "s-example-parks"
+  ],
+  "question": "Will Example Park have at least 500 established trees on 31 December 2027?",
+  "population": "Established trees in Example Park",
+  "denominator": "count on 31 Dec 2027",
+  "threshold": "500 trees",
+  "resolution_at": "2027-12-31",
+  "resolution_rule": "True if the official parks inventory reports at least 500 established trees. False if fewer. Void if the park boundary is redefined so the count is not comparable.",
+  "resolution_source": "https://example.com/parks/example-park/inventory",
+  "probability": 0.65,
+  "basis": "EXAMPLE DATA: illustrative probability, not a real forecast.",
+  "made_at": "2026-03-01",
+  "forecast_version": 1,
+  "key_assumptions": [
+    "Official statistics remain the resolution source."
+  ],
+  "update_triggers": [
+    "Definition or boundary change."
+  ],
+  "supporting_evidence_ids": [],
+  "contradicting_evidence_ids": [],
+  "prediction_digest": "f91af72756bd96b99587434c9576cb1cc7d8f1b39f2ceea83e3316d15ee71807",
+  "frozen_at": "2026-03-01T00:00:00Z"
+}

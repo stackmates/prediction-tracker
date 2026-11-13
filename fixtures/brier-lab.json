@@ -1,0 +1,32 @@
+{
+  "description": "Port of the published binary-Brier lab case. Mean of (0.8-1)^2 and (0.3-0)^2 is 0.065. A pending forecast is not scored.",
+  "forecasts": [
+    {
+      "p": 0.8,
+      "y": 1
+    },
+    {
+      "p": 0.3,
+      "y": 0
+    }
+  ],
+  "pending": [
+    {
+      "p": 0.9,
+      "y": null
+    }
+  ],
+  "expected_mean_brier": 0.065,
+  "wilson_one_success_in_one": {
+    "successes": 1,
+    "total": 1,
+    "low": 0.206549314,
+    "high": 1.0
+  },
+  "wilson_zero_in_ten": {
+    "successes": 0,
+    "total": 10,
+    "low": 0.0,
+    "high": 0.2775328
+  }
+}

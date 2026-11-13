@@ -1,0 +1,44 @@
+{
+  "data_class": "example",
+  "data_notice": "EXAMPLE DATA. Invented for CLI demonstration. Not a real forecast, not from a real source, and not a measured public outcome.",
+  "claim_id": "example-station-void-delta",
+  "forecaster_id": "example-civic",
+  "forecaster_name": "Example Civic Office",
+  "exact_quote": "The Example Harbour tide gauge will record a mean sea-level anomaly of at least 15 cm for calendar year 2024.",
+  "source_url": "https://example.com/claims/station-void-delta",
+  "stated_at": "2023-10-01",
+  "question_id": "q-example-tide",
+  "problem_id": "p-example-public-goods",
+  "decision_id": "d-example-civic-budget",
+  "signal_ids": [
+    "s-example-tide-gauge"
+  ],
+  "question": "Will the Example Harbour official tide gauge report a 2024 mean sea-level anomaly of at least 15 cm?",
+  "population": "Example Harbour official tide gauge",
+  "denominator": "calendar year 2024 mean",
+  "threshold": "15 cm anomaly",
+  "resolution_at": "2025-02-01",
+  "resolution_rule": "True if the official annual bulletin reports a mean anomaly of at least 15 cm. False if it reports less. Void if the gauge is withdrawn and no official successor series is published.",
+  "resolution_source": "https://example.com/tide/example-harbour/2024",
+  "probability": 0.6,
+  "basis": "EXAMPLE DATA: illustrative probability, not a real forecast.",
+  "made_at": "2023-10-01",
+  "forecast_version": 1,
+  "key_assumptions": [
+    "The gauge series continues."
+  ],
+  "update_triggers": [
+    "Gauge withdrawal."
+  ],
+  "supporting_evidence_ids": [],
+  "contradicting_evidence_ids": [],
+  "prediction_digest": "43662ebf956e726b58d36b1ee627a4a3742dad580d8ee0050b5e186ae31f253e",
+  "frozen_at": "2023-10-01T00:00:00Z",
+  "actual_at": "2025-02-01",
+  "actual_evidence_uri": "https://example.com/tide/example-harbour/withdrawn",
+  "verifier_id": "example-verifier-tide",
+  "verdict": "void",
+  "resolved_outcome": "EXAMPLE DATA: invented. The source is gone; verdict is void.",
+  "void_requested": true,
+  "void_reason": "EXAMPLE DATA: invented. The named gauge series was withdrawn and no official successor was published."
+}

@@ -1,0 +1,61 @@
+{
+  "description": "Shape of a file-based prediction record. Outcome fields are written once by a verifier other than the forecaster; the program computes verdict.",
+  "frozen": [
+    "claim_id",
+    "forecaster_id",
+    "forecaster_name",
+    "exact_quote",
+    "source_url",
+    "stated_at",
+    "question_id",
+    "problem_id",
+    "decision_id",
+    "signal_ids",
+    "question",
+    "population",
+    "denominator",
+    "threshold",
+    "metric_id",
+    "metric_unit",
+    "direction",
+    "baseline_value",
+    "baseline_at",
+    "target_value",
+    "tolerance",
+    "resolution_at",
+    "resolution_rule",
+    "resolution_source",
+    "probability",
+    "basis",
+    "base_rate_or_reference_class",
+    "made_at",
+    "forecast_version",
+    "key_assumptions",
+    "update_triggers",
+    "supporting_evidence_ids",
+    "contradicting_evidence_ids"
+  ],
+  "written_at_insert": [
+    "prediction_digest",
+    "frozen_at"
+  ],
+  "outcome": [
+    "actual_value",
+    "actual_at",
+    "actual_evidence_uri",
+    "verifier_id",
+    "verdict",
+    "verdict_detail",
+    "brier",
+    "resolved_outcome"
+  ],
+  "verdict_vocabulary": [
+    "true",
+    "false",
+    "void"
+  ],
+  "data_class": [
+    "public-sourced",
+    "example"
+  ]
+}

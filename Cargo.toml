@@ -1,0 +1,28 @@
+[workspace]
+resolver = "2"
+members = [
+    "crates/prediction-domain",
+    "crates/prediction-store",
+    "crates/prediction-cli",
+]
+
+[workspace.package]
+version = "0.1.0"
+edition = "2021"
+license = "MIT"
+repository = "https://github.com/stackmates/prediction-tracker"
+rust-version = "1.85"
+description = "File-based scored-prediction tracker: freeze a claim, record a measured actual, compute a true/false/void verdict, and score with binary Brier and a Wilson 95% interval."
+
+[workspace.dependencies]
+prediction-domain = { path = "crates/prediction-domain", version = "0.1.0" }
+prediction-store = { path = "crates/prediction-store", version = "0.1.0" }
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+sha2 = "0.10"
+thiserror = "2.0"
+clap = { version = "4.5", features = ["derive"] }
+anyhow = "1.0"
+
+[workspace.lints.rust]
+unused_must_use = "deny"

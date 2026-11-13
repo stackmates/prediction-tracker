@@ -1,0 +1,44 @@
+{
+  "data_class": "example",
+  "data_notice": "EXAMPLE DATA. Invented for CLI demonstration. Not a real forecast, not from a real source, and not a measured public outcome.",
+  "claim_id": "example-library-visits-gamma",
+  "forecaster_id": "example-civic",
+  "forecaster_name": "Example Civic Office",
+  "exact_quote": "The Example Central Library will log at least 20,000 visits in calendar year 2024.",
+  "source_url": "https://example.com/claims/library-visits-gamma",
+  "stated_at": "2023-11-15",
+  "question_id": "q-example-civic",
+  "problem_id": "p-example-public-goods",
+  "decision_id": "d-example-civic-budget",
+  "signal_ids": [
+    "s-example-library-stats"
+  ],
+  "question": "Will Example Central Library log at least 20,000 visits in calendar year 2024?",
+  "population": "In-person visits to Example Central Library",
+  "denominator": "calendar year 2024",
+  "threshold": "20,000 visits",
+  "resolution_at": "2025-01-31",
+  "resolution_rule": "True if the official annual statistical release reports at least 20,000 in-person visits for 2024. False if it reports fewer. Void if the library closes and no official visit count is published.",
+  "resolution_source": "https://example.com/library/stats/2024",
+  "probability": 0.7,
+  "basis": "EXAMPLE DATA: illustrative probability, not a real forecast.",
+  "made_at": "2023-11-15",
+  "forecast_version": 1,
+  "key_assumptions": [
+    "The official visit definition is unchanged."
+  ],
+  "update_triggers": [
+    "Library closure or definition change."
+  ],
+  "supporting_evidence_ids": [],
+  "contradicting_evidence_ids": [],
+  "prediction_digest": "7366a6e12bfbc1851cde699adbd31ab2c1bc3da0b1fb09e3a56206f33420e14c",
+  "frozen_at": "2023-11-15T00:00:00Z",
+  "actual_value": 0.0,
+  "actual_at": "2025-01-31",
+  "actual_evidence_uri": "https://example.com/library/stats/2024",
+  "verifier_id": "example-verifier-library",
+  "verdict": "false",
+  "brier": 0.49,
+  "resolved_outcome": "EXAMPLE DATA: invented observation. Official visits were recorded as 17,400, below the 20,000 threshold."
+}

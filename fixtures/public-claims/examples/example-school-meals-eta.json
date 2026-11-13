@@ -1,0 +1,37 @@
+{
+  "data_class": "example",
+  "data_notice": "EXAMPLE DATA. Invented for CLI demonstration. Not a real forecast, not from a real source, and not a measured public outcome.",
+  "claim_id": "example-school-meals-eta",
+  "forecaster_id": "example-institute",
+  "forecaster_name": "Example Institute",
+  "exact_quote": "Every Example District primary school will offer a free midday meal on every school day of the 2027 school year.",
+  "source_url": "https://example.com/claims/school-meals-eta",
+  "stated_at": "2026-04-10",
+  "question_id": "q-example-meals",
+  "problem_id": "p-example-public-goods",
+  "decision_id": "d-example-civic-budget",
+  "signal_ids": [
+    "s-example-education"
+  ],
+  "question": "Will every Example District primary school offer a free midday meal on every school day of the 2027 school year?",
+  "population": "Example District primary schools",
+  "denominator": "school days in 2027",
+  "threshold": "every school, every school day",
+  "resolution_at": "2027-12-20",
+  "resolution_rule": "True if the official education report states the offer was universal for that year. False if any school or day is reported as missing. Void if the district is dissolved.",
+  "resolution_source": "https://example.com/education/meals/2027",
+  "probability": 0.5,
+  "basis": "EXAMPLE DATA: illustrative probability, not a real forecast.",
+  "made_at": "2026-04-10",
+  "forecast_version": 1,
+  "key_assumptions": [
+    "Official statistics remain the resolution source."
+  ],
+  "update_triggers": [
+    "Definition or boundary change."
+  ],
+  "supporting_evidence_ids": [],
+  "contradicting_evidence_ids": [],
+  "prediction_digest": "d52bf81402519ef439e8c5249c3707ecbb25a63e24f00fc64bbfe75bd9e9049b",
+  "frozen_at": "2026-04-10T00:00:00Z"
+}

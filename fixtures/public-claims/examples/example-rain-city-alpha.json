@@ -1,0 +1,45 @@
+{
+  "data_class": "example",
+  "data_notice": "EXAMPLE DATA. Invented for CLI demonstration. Not a real forecast, not from a real source, and not a measured public outcome.",
+  "claim_id": "example-rain-city-alpha",
+  "forecaster_id": "example-institute",
+  "forecaster_name": "Example Institute",
+  "exact_quote": "Example City will record at least 0.2 millimetres of rain on 2 January 2024.",
+  "source_url": "https://example.com/claims/rain-city-alpha",
+  "stated_at": "2023-12-01",
+  "question_id": "q-example-weather",
+  "problem_id": "p-example-planning",
+  "decision_id": "d-example-umbrella",
+  "signal_ids": [
+    "s-example-weather-station"
+  ],
+  "question": "Will the Example City official weather station record at least 0.2 mm of precipitation on 2 January 2024?",
+  "population": "Example City official weather station",
+  "denominator": "calendar day 2024-01-02",
+  "threshold": "at least 0.2 mm recorded precipitation",
+  "resolution_at": "2024-01-03",
+  "resolution_rule": "True if the official station records at least 0.2 mm on that calendar day. False if it records less. Void only if the station series is withdrawn and no official successor exists.",
+  "resolution_source": "https://example.com/weather/example-city/2024-01-02",
+  "probability": 0.8,
+  "basis": "EXAMPLE DATA: illustrative probability, not a real forecast.",
+  "base_rate_or_reference_class": "0.4",
+  "made_at": "2023-12-01",
+  "forecast_version": 1,
+  "key_assumptions": [
+    "The official station remains the resolution source."
+  ],
+  "update_triggers": [
+    "Station closure."
+  ],
+  "supporting_evidence_ids": [],
+  "contradicting_evidence_ids": [],
+  "prediction_digest": "67981d5d66f74026782a4f768b7d21180f5d2f38737c43b7a155a2b0f0341492",
+  "frozen_at": "2023-12-01T00:00:00Z",
+  "actual_value": 1.0,
+  "actual_at": "2024-01-03",
+  "actual_evidence_uri": "https://example.com/weather/example-city/2024-01-02",
+  "verifier_id": "example-verifier-weather",
+  "verdict": "true",
+  "brier": 0.04,
+  "resolved_outcome": "EXAMPLE DATA: invented observation. The station is recorded as having logged 1.2 mm."
+}

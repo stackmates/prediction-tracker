@@ -1,0 +1,40 @@
+{
+  "data_class": "public-sourced",
+  "data_notice": "Public-sourced claim taken from an already-published URL. Probability is omitted where the original source did not state one word for word; those rows are verdict-only and are not in the Brier set. Link fields marked [U] are unknown and were not invented; those rows are reading-list items and are not scored.",
+  "claim_id": "aifp-sar-2027",
+  "forecaster_id": "ai-futures-project",
+  "forecaster_name": "AI Futures Project",
+  "exact_quote": "Now, all of us forecast that Superhuman AI Researcher (SAR) will likely arrive at some point in 2027 (assuming no substantial deliberate slowdown).",
+  "source_url": "https://blog.aifutures.org/p/q35-timelines-update-looks-like-the",
+  "stated_at": "2026-11-10",
+  "question_id": "[U]",
+  "problem_id": "P02",
+  "decision_id": "[U]",
+  "signal_ids": "[U]",
+  "question": "Will Superhuman AI Researcher (SAR), as AI Futures Project defined it on 10 Nov 2026, arrive at some point in 2027, absent a substantial deliberate slowdown?",
+  "population": "Frontier AI systems, judged against AI Futures Project's 10 Nov 2026 SAR definition",
+  "denominator": "SAR is 'roughly the point at which a company would rather fire all their human researchers and rely solely on automated AI researchers than have a team of the best human researchers in the world with no AIs' (same 10 Nov 2026 page).",
+  "threshold": "SAR arrives at some point in calendar year 2027 (1 Jan–31 Dec 2027)",
+  "resolution_at": "2027-12-31",
+  "resolution_rule": "Binary event. KEPT if, at any time in 2027, AI Futures Project (or the Q3.5 authors) publicly states that SAR as defined on 10 Nov 2026 has arrived, OR a leading frontier lab (OpenAI, Anthropic, Google DeepMind, xAI, or Meta) publicly states that it would rather rely solely on automated AI researchers than on its best human researchers with no AIs. BROKEN if 31 Dec 2027 passes without such a statement and without a public, checkable demonstration meeting that definition. If a 'substantial deliberate slowdown' (industry-wide pause or binding international restriction on frontier development) is in force through 2027, the antecedent fails and the claim is UNRESOLVABLE. A single-lab voluntary pause is not enough. 'Likely' is not a numerical probability and is not scored as one. Disputed statements: if AFP and the labs disagree, AFP's own published resolution of this forecast is preferred; if AFP is silent and only a lab statement exists, use the lab statement against the frozen 10 Nov definition. Close or 'almost SAR' is BROKEN, not unresolvable.",
+  "resolution_source": "AI Futures Project published updates (blog.aifutures.org / ai-2027.com); public statements by OpenAI, Anthropic, Google DeepMind, xAI, or Meta matching the frozen SAR definition.",
+  "probability_note": "No numerical probability was stated word for word by the original source; the claim is not in the Brier set.",
+  "basis": "Q3.5 Timelines Update, 10 Nov 2026 (datePublished 2026-11-10T16:15:14+00:00): the group forecast, after earlier 2025–2026 median updates. The word 'likely' is not a stated 0–1 probability; probability is omitted and the claim is verdict-only.",
+  "base_rate_or_reference_class": "The group's own earlier medians (2025 AI 2027 publication and 2026 Q1 / Q2.5 updates) and the METR time-horizon report the page names as the single biggest source of evidence.",
+  "made_at": "2026-11-14",
+  "forecast_version": 1,
+  "key_assumptions": [
+    "No substantial deliberate slowdown of frontier AI development through 2027.",
+    "The 10 Nov 2026 SAR definition is the resolution definition.",
+    "AFP or a named frontier lab will make a public statement sufficient to apply the rule."
+  ],
+  "update_triggers": [
+    "An AFP timelines update that moves SAR out of or earlier into 2027.",
+    "A frontier-lab statement about replacing human researchers with AI.",
+    "A genuine industry-wide or international slowdown."
+  ],
+  "supporting_evidence_ids": [],
+  "contradicting_evidence_ids": [],
+  "prediction_digest": "f1d90edd7ad9bdf71284a614c5750b257e265c1b461a68289b6ba90ca64c05ab",
+  "frozen_at": "2026-11-14T08:22:00+13:00"
+}
